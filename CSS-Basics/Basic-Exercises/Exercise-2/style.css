@@ -1,0 +1,16 @@
+.par {
+    background-color:rgb(131, 131, 225);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+} 
+#num2{
+    color: #4D2D73;
+    font-size: 36px;
+}
+.num3{
+    font-size: 24px;
+}
+#num4{
+    background-color: rgba(0, 150, 0, 0.5);
+    font-size: 24px;
+    font-weight: bold;
+}
