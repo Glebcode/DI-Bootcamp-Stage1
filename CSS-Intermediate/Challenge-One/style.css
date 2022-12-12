@@ -1,0 +1,19 @@
+body{
+    background-color: #364371;
+    width: 1280px;
+}
+h2{
+    text-align: center;
+}
+#nav {
+    background-color: #b0cfff;
+    width: 200px;
+}
+#content{
+    background-color: #5b7fbd;
+    width: 700px;
+}
+#wrap{
+    display: flex;
+    flex-direction: row;
+}
