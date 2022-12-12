@@ -1,0 +1,38 @@
+#wrap{
+    width: 500px;
+    height: 650px;
+    border: 4px black solid;
+}
+p{
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+section{
+    border-top: 4px black solid;
+    height: 450;
+    display: flex;
+    flex-direction: row;
+}
+.divRed, .divBlue, #divLonely{
+        border: 4px black solid;
+        height: 100px;
+}
+.divBlue, .divRed{
+    display: flex;
+    flex-direction: column;
+}
+.divRed{
+    background-color: #ea9999;
+    width: 120px;
+    margin: 48px;
+}
+.divBlue{
+    background-color: #9fc5f8;
+    width: 230px;
+    margin: 48px 0;
+}
+#divLonely{
+    background-color: #ffe599;
+    width: 404px;
+    margin: 48px 0 0 48px;
+}
