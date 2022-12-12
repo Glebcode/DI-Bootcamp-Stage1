@@ -13,7 +13,7 @@ h2{
     background-color: #5b7fbd;
     width: 700px;
 }
-#wrap{
+#wrap {
     display: flex;
     flex-direction: row;
 }
