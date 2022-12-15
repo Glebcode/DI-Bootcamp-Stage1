@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/* Styling the body element*/
+         
+        body {
+            background-color: #25e89d;
+            margin: 0 10% 5% 7%;
+        }
+ 
+        /* Styling the Title*/
+        #title {
+            text-align: center;
+            text-shadow: 5px 5px 10px white;
+            font-size: 7vh;
+            border-bottom: black solid 2px;
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+            i{
+            margin-left: 2vw;
+            }
+        /* Setting width and display
+        type of image */
+        #img {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin-bottom: 2vh;
+        }
+        .img0{
+            width: 40%;
+            height: 90%;
+            border: rgba(9, 9, 9, 0.5) solid 5px;
+        }
+        .img1, .img2{
+            width: 30%;
+            height: 40%;
+            margin-left: 1.5vw;
+            border: rgba(136, 104, 104, 0.5) solid 5px;
+        }
+        .img1{
+            margin-top: 2vw;
+        }
+        .img2{
+             margin-top: 3vw;
+        }
+        .img0:hover{
+            transition: 1s;
+            margin-left: 1vw;
+            border: rgba(58, 21, 21, 0.2) solid 5px;
+        }
+        .img1:hover, .img2:hover{
+            transition: 1s;
+            /* margin-left: 0; */
+            width: 33%;
+            height: 45%;
+            margin-left: 1.2vw;
+            border: rgba(58, 21, 21, 0.2) solid 5px;
+        }
+ 
+        /* Setting font color and font
+        size*/
+        #caption {
+            margin-top: 3vw;
+            font-size: 17px;
+            font-family: Gill Sans;
+            color: black;
+        }
+ 
+        /* Styling the content of the page like-
+        padding, font-size, font color etc.*/
+        div#tribute-data {
+            background-color: rgb(46, 139, 87, 0.25);
+            box-shadow: 25px 20px 20px #baedba;
+            font-family: Georgia;
+            padding: 25px 25px;
+            margin: 11px;
+            margin-top: 50px;
+        }
+ 
+        /* Styling the title of the content */
+        h1.title-APJ {
+            font-size: 35px;
+            color: white;
+            text-align: center;
+            text-shadow: 5px 5px 10px black;
+        }
+ 
+        /* Styling the link provided at the end */
+        #tribute-link {
+            text-decoration: none;
+            color: rgb(122, 44, 44);
+        }
+
+        /* Responsive design */
+
+        @media screen and (max-width: 768px) {
+            #img {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            .img1, .img2, .img0{
+                width: 80%;
+                margin-left: 1.5vw;
+                border: rgba(136, 104, 104, 0.5) solid 5px;
+            }
+            .img1{
+                margin-top: 1vw;
+            }
+            .img2{
+                 margin-top: 1.5vw;
+            }
+            .img1:hover, .img2:hover, .img0:hover{
+                transition: 1s;
+                /* margin-left: 0; */
+                width: 90%;
+                height: 90%;
+                margin-left: 0.6vw;
+                border: rgba(58, 21, 21, 0.2) solid 2.5px;
+            }
+     
+        }
